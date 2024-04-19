@@ -1,14 +1,22 @@
-package io.github.chameerar.springhibernatemssql.models;
+package prueba.sermaluc.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
 public class Componente {
 
-    @Id
+    @Id()
+    @GeneratedValue
+    private Long id;
+
+    @Column(length = 25)
     private Long acoIdAsociacionComuna;
+    @Column(length = 15)
     private String componente;
+    @Column(length = 25)
     private double valor;
 
     public Long getAcoIdAsociacionComuna() {

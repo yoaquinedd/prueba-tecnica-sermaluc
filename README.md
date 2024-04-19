@@ -1,28 +1,4 @@
-# Spring Boot Project with Hibernate and MSSQL Database
 
-This repository contains a sample Spring Boot project that demonstrates how to integrate Hibernate with a Microsoft SQL Server (MSSQL) database for building robust web applications.
-
-## Introduction
-
-In today's fast-paced world of web development, creating robust and efficient applications is paramount. This project showcases the powerful combination of Spring Boot, Hibernate, and MSSQL to provide a solid foundation for building modern web applications. With this template, you can quickly set up a development environment and start creating your own applications.
-
-## Prerequisites
-
-Before getting started, ensure you have the following prerequisites installed on your system:
-
-- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- Integrated Development Environment (IDE) like [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [Eclipse](https://www.eclipse.org/)
-- Microsoft SQL Server (MSSQL) installed or accessible database connection details
-
-## Getting Started
-
-To use this project as a template, follow these steps:
-
-1. Clone this repository to your local machine:
-2. Open the project in your preferred IDE. 
-3. Configure your MSSQL database connection in the application.properties file located in the src/main/resources directory. 
-4. Build and run the application
 
 ## Configuration
 Before running the application, configure the database connection in the application.properties file:

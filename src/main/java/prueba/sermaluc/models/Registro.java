@@ -1,19 +1,32 @@
-package io.github.chameerar.springhibernatemssql.models;
+package prueba.sermaluc.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
 public class Registro {
 
     @Id
+    @GeneratedValue
+    private Long id;
+
+    @Column(length = 25)
     private Long acoIdAsociacionComuna;
+    @Column(length = 25)
     private String empNomEmpresa;
+    @Column(length = 20)
     private String comNomComuna;
+    @Column(length = 50)
     private String subNombreSec;
+    @Column(length = 255)
     private Long opcTarifariaId;
+    @Column(length = 25)
     private String opcTarifariaNombre;
+    @Column(length = 1000)
     private String acaForFormulaDescompuesta;
+    @Column(length = 500)
     private String carDescCargo;
 
     public String getEmpNomEmpresa() {

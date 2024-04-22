@@ -1,8 +1,12 @@
 
 
+
 ## Configuración
 
-Despues de clonar el proyecto, se debe configurar el archivo application.properties con las credenciales de la base de datos en SQL server.
+Despues de clonar el proyecto, el archivo prueba.xlsx se debe encontrar en la raiz del proyecto:
+![image](https://github.com/yoaquinedd/prueba-tecnica-sermaluc/assets/123666423/5dd5040f-f4ad-4e77-870c-988c7a268eda)
+
+Se debe configurar el archivo application.properties con las credenciales de la base de datos en SQL server.
 
 En "databaseName=" se debe proporcionar el nombre de la base de datos existente en SQL server
 En "spring.datasource.username=" Se debe proporcionar el nombre del usuario para acceder a la base de datos
